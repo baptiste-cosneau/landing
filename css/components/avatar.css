@@ -1,0 +1,31 @@
+.avatars{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.avatars img{
+	width: 300px;
+	height: 250px;
+	border-radius: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.avatars a{
+	display: flex;
+	font-size: 50px;
+	color:white;
+	flex-grow:1;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.avatars a:hover{
+	color: #131313;
+}
